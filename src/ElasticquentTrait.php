@@ -739,7 +739,7 @@ trait ElasticquentTrait
 
                         // Unset attribute before match relation
                         unset($model[$key]);
-                        $relation->match([$model], $models, $key);
+                        //$relation->match([$model], $models, $key);
                     }
                 }
             }
